@@ -8,7 +8,7 @@ class AppServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
-     *
+     * 注册服务提供器
      * @return void
      */
     public function register()
@@ -18,7 +18,7 @@ class AppServiceProvider extends ServiceProvider
 
     /**
      * Bootstrap any application services.
-     *
+     * 启动运用服务
      * @return void
      */
     public function boot()
